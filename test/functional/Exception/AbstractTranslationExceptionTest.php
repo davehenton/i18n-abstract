@@ -58,6 +58,7 @@ class AbstractTranslationExceptionTest extends TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject, 'A valid instance of the test subject could not be created');
+        $this->assertInstanceOf('Exception', $subject, 'Subject does not extend required ancestor');
     }
 
     /**
