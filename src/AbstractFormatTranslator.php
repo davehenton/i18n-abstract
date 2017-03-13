@@ -2,7 +2,6 @@
 
 namespace Dhii\I18n;
 
-use ArrayAccess as Map;
 use Dhii\Data\ValueAwareInterface as Value;
 use Dhii\Util\String\StringableInterface as Stringable;
 use Dhii\I18n\Exception\TranslationExceptionInterface;
@@ -22,7 +21,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      *
      * @param string|Stringable $string  The string to translate.
      * @param string|Value|null $context The context for the string, if any.
-     * @param string|Map|null   $params  Format parameters for interpolation.
+     * @param string|null       $params  Format parameters for interpolation.
      *
      * @throws TranslationExceptionInterface If problem translating.
      * @throws I18nExceptionInterface        If a problem not directly related to translating occurs.
@@ -44,7 +43,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      *
      * @since 0.1
      *
-     * @param array|Map $params The parameter map to interpolate into the string.
+     * @param array $params The parameter map to interpolate into the string.
      * 
      * @throws I18nExceptionInterface If a problem not directly related to translating occurs.
      *
@@ -64,7 +63,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      * @param mixed               $subject    The subject which is being translated, if any.
      * @param TranslatorInterface $translator The translator which is performing the translation, if any
      * @param Value|null          $context    The string context, if any.
-     * @param Map|null            $params     The interpolation params, if any.
+     * @param array|null          $params     The interpolation params, if any.
      *
      * @return StringTranslationExceptionInterface The new exception.
      */
