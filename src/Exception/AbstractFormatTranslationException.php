@@ -7,14 +7,14 @@ use ArrayAccess as Map;
 /**
  * Common functionality for format translation exceptions.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractFormatTranslationException extends AbstractStringTranslationException
 {
     /**
      * The parameters used for interpolation.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @var Map
      */
@@ -23,7 +23,7 @@ abstract class AbstractFormatTranslationException extends AbstractStringTranslat
     /**
      * Associates interpolation parameters with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param array|Map $params The parameters.
      *
@@ -39,7 +39,7 @@ abstract class AbstractFormatTranslationException extends AbstractStringTranslat
     /**
      * Retrieves the interpolation parameters used for translation.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return array|Map|null The parameters, if any.
      */

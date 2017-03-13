@@ -7,14 +7,14 @@ use Dhii\Data\ValueAwareInterface as Value;
 /**
  * Common functionality for string translation exceptions.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractStringTranslationException extends AbstractTranslationException
 {
     /**
      * The context of the string being translated.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @var Value
      */
@@ -23,7 +23,7 @@ abstract class AbstractStringTranslationException extends AbstractTranslationExc
     /**
      * Associates a translation context with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string|Value $context The translation context.
      *
@@ -39,7 +39,7 @@ abstract class AbstractStringTranslationException extends AbstractTranslationExc
     /**
      * Retrieves the context of the string being translated.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return string|Value|null The translation context, if any.
      */

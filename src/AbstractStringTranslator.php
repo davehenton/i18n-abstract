@@ -10,14 +10,14 @@ use Dhii\I18n\Exception\I18nExceptionInterface;
 /**
  * Common functionality for translators that can translate whole strings.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractStringTranslator extends AbstractTranslator
 {
     /**
      * Translates a string.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string|Stringable $string  The string to translate.
      * @param string|Value      $context The context for the string, if any.
@@ -37,7 +37,7 @@ abstract class AbstractStringTranslator extends AbstractTranslator
     /**
      * Translates a string value.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string|Stringable $string  The value to translate.
      * @param string|Value      $context The context for the string.
@@ -52,7 +52,7 @@ abstract class AbstractStringTranslator extends AbstractTranslator
     /**
      * Creates a new instance of a string translation exception.
      *
-     * @since [*next-version*]
+     * @since 0.1
      * @see \Exception::__construct()
      *
      * @param string              $message

@@ -7,21 +7,21 @@ use Xpmock\TestCase;
 /**
  * Tests {@see \Dhii\I18n\Exception\AbstractFormatTranslationException}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class AbstractFormatTranslationExceptionTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\I18n\\Exception\\AbstractFormatTranslationException';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return \Dhii\I18n\Exception\AbstractFormatTranslationException
      */
@@ -36,7 +36,7 @@ class AbstractFormatTranslationExceptionTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {
@@ -49,7 +49,7 @@ class AbstractFormatTranslationExceptionTest extends TestCase
     /**
      * Tests to make sure that the interpolation params getter and setter work correctly.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testGetSetInterpolationParams()
     {

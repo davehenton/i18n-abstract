@@ -7,21 +7,21 @@ use Xpmock\TestCase;
 /**
  * Tests {@see \Dhii\I18n\AbstractFormatTranslator}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class AbstractFormatTranslatorTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\I18n\\AbstractFormatTranslator';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return \Dhii\I18n\AbstractFormatTranslator
      */
@@ -46,7 +46,7 @@ class AbstractFormatTranslatorTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {
@@ -58,7 +58,7 @@ class AbstractFormatTranslatorTest extends TestCase
     /**
      * Tests that `_translate()` behaves correctly.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testTranslateWithInterpolation()
     {

@@ -8,21 +8,21 @@ use Dhii\Data\ValueAwareInterface as Value;
 /**
  * Tests {@see \Dhii\I18n\Exception\AbstractStringTranslationException}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class AbstractStringTranslationExceptionTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\I18n\\Exception\\AbstractStringTranslationException';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return \Dhii\I18n\Exception\AbstractStringTranslationException
      */
@@ -37,7 +37,7 @@ class AbstractStringTranslationExceptionTest extends TestCase
     /**
      * Creates a new instance of a translator.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return Value The new instance.
      */
@@ -51,7 +51,7 @@ class AbstractStringTranslationExceptionTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {
@@ -64,7 +64,7 @@ class AbstractStringTranslationExceptionTest extends TestCase
     /**
      * Tests to make sure that the context getter and setter work correctly.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testGetSetContext()
     {

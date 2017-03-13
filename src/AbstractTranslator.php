@@ -8,14 +8,14 @@ use Dhii\I18n\Exception\TranslationExceptionInterface;
 /**
  * Common functionality for translators.
  * 
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractTranslator
 {
     /**
      * Translates a subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param mixed $subject The subject to translate.
      *
@@ -29,7 +29,7 @@ abstract class AbstractTranslator
     /**
      * Creates a new instance of an internationalization exception.
      *
-     * @since [*next-version*]
+     * @since 0.1
      * @see \Exception::__construct()
      *
      * @param string     $message
@@ -43,7 +43,7 @@ abstract class AbstractTranslator
     /**
      * Creates a new instance of a translation exception.
      *
-     * @since [*next-version*]
+     * @since 0.1
      * @see \Exception::__construct()
      *
      * @param string              $message

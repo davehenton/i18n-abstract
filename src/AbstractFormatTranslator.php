@@ -11,14 +11,14 @@ use Dhii\I18n\Exception\I18nExceptionInterface;
 /**
  * Common functionality for format string translators.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractFormatTranslator extends AbstractStringTranslator
 {
     /**
      * Translates a string format.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param string|Stringable $string  The string to translate.
      * @param string|Value|null $context The context for the string, if any.
@@ -42,7 +42,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
     /**
      * Interpolates given parameters into the specified string.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param array|Map $params The parameter map to interpolate into the string.
      * 
@@ -55,7 +55,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
     /**
      * Creates a new instance of a string translation exception.
      *
-     * @since [*next-version*]
+     * @since 0.1
      * @see \Exception::__construct()
      *
      * @param string              $message

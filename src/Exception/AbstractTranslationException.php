@@ -7,14 +7,14 @@ use Dhii\I18n\TranslatorInterface;
 /**
  * Common functionality for translation exceptions.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 abstract class AbstractTranslationException extends AbstractI18nException
 {
     /**
      * The translator performing the translation.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @var TranslatorInterface
      */
@@ -23,7 +23,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
     /**
      * The subject being translated.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @var mixed
      */
@@ -32,7 +32,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
     /**
      * Associates a translator with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param TranslatorInterface $translator
      *
@@ -48,7 +48,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
     /**
      * Retrieves the translator associated with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return TranslatorInterface|null The translator, if any.
      */
@@ -60,7 +60,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
     /**
      * Associates a translation subject with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @param mixed $subject
      *
@@ -76,7 +76,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
     /**
      * Retrieves the translation subject associated with this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return mixed|null The translation subject, if any.
      */

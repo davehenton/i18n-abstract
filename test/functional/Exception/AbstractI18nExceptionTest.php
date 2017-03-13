@@ -7,21 +7,21 @@ use Xpmock\TestCase;
 /**
  * Tests {@see \Dhii\I18n\Exception\AbstractI18nException}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class AbstractI18nExceptionTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     const TEST_SUBJECT_CLASSNAME = 'Dhii\\I18n\\Exception\\AbstractI18nException';
 
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return \Dhii\I18n\Exception\AbstractI18nException
      */
@@ -36,7 +36,7 @@ class AbstractI18nExceptionTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {
