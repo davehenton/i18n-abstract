@@ -38,7 +38,7 @@ abstract class AbstractTranslationException extends AbstractI18nException
      *
      * @return $this This instance.
      */
-    protected function _setTranslator(TranslatorInterface $translator)
+    protected function _setTranslator(TranslatorInterface $translator = null)
     {
         $this->translator = $translator;
 
