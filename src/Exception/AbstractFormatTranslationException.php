@@ -2,8 +2,6 @@
 
 namespace Dhii\I18n\Exception;
 
-use ArrayAccess as Map;
-
 /**
  * Common functionality for format translation exceptions.
  *
@@ -16,7 +14,7 @@ abstract class AbstractFormatTranslationException extends AbstractStringTranslat
      *
      * @since 0.1
      *
-     * @var Map
+     * @var array
      */
     protected $interpolationParams;
 
@@ -25,7 +23,7 @@ abstract class AbstractFormatTranslationException extends AbstractStringTranslat
      *
      * @since 0.1
      *
-     * @param array|Map $params The parameters.
+     * @param array $params The parameters.
      *
      * @return $this This instance.
      */
@@ -41,7 +39,7 @@ abstract class AbstractFormatTranslationException extends AbstractStringTranslat
      *
      * @since 0.1
      *
-     * @return array|Map|null The parameters, if any.
+     * @return array|null The parameters, if any.
      */
     protected function _getInterpolationParams()
     {
