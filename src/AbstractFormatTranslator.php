@@ -21,7 +21,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      *
      * @param string|Stringable $string  The string to translate.
      * @param string|Value|null $context The context for the string, if any.
-     * @param string|null       $params  Format parameters for interpolation.
+     * @param array|null        $params  Format parameters for interpolation.
      *
      * @throws TranslationExceptionInterface If problem translating.
      * @throws I18nExceptionInterface        If a problem not directly related to translating occurs.
