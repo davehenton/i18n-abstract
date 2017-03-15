@@ -45,4 +45,19 @@ class AbstractI18nExceptionTest extends TestCase
         $this->assertInstanceOf(static::TEST_SUBJECT_CLASSNAME, $subject, 'A valid instance of the test subject could not be created');
         $this->assertInstanceOf('Exception', $subject, 'Subject does not extend required ancestor');
     }
+
+    /**
+     * Tests whether the protected constructor behaves correctly.
+     *
+     * Currently, correct behaviour is to simply not result in an error.
+     *
+     * @since 0.1
+     */
+    public function testConstruct()
+    {
+        $subject = $this->createInstance();
+        $reflection = $this->reflect($subject);
+
+        $reflection->_construct();
+    }
 }
