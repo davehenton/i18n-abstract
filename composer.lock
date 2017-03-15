@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbd03fc606fd243c846d0d6f76a7a89a",
-    "content-hash": "db3c367191ac8864a83be2a8bea164cd",
+    "hash": "e56cf746ac0ad37c3d1ad2451c313a1b",
+    "content-hash": "0d270597f1bed92ff470409711f6f7c7",
     "packages": [],
     "packages-dev": [
         {
@@ -110,16 +110,16 @@
         },
         {
             "name": "dhii/i18n-interface",
-            "version": "dev-develop",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/i18n-interface.git",
-                "reference": "6f635e5da2be7bef6851267dd651951e1be3c481"
+                "reference": "7eaf0731ba80eea37a5deea6d894a0326e10be67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/6f635e5da2be7bef6851267dd651951e1be3c481",
-                "reference": "6f635e5da2be7bef6851267dd651951e1be3c481",
+                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/7eaf0731ba80eea37a5deea6d894a0326e10be67",
+                "reference": "7eaf0731ba80eea37a5deea6d894a0326e10be67",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,7 @@
                 }
             ],
             "description": "Interfaces for internationalization.",
-            "time": "2017-03-12 19:55:38"
+            "time": "2017-03-15 16:01:39"
         },
         {
             "name": "dhii/php-cs-fixer-config",
@@ -1982,8 +1982,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "dhii/php-cs-fixer-config": 20,
-        "dhii/i18n-interface": 20
+        "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

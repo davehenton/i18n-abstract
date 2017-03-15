@@ -1,7 +1,7 @@
-## Dhii - Internationalization Interface ##
-[![Build Status](https://travis-ci.org/Dhii/i18n-interface.svg?branch=master)](https://travis-ci.org/Dhii/i18n-interface)
-[![Code Climate](https://codeclimate.com/github/Dhii/i18n-interface/badges/gpa.svg)](https://codeclimate.com/github/Dhii/i18n-interface)
-[![Test Coverage](https://codeclimate.com/github/Dhii/i18n-interface/badges/coverage.svg)](https://codeclimate.com/github/Dhii/i18n-interface/coverage)
-[![Latest Stable Version](https://poser.pugx.org/dhii/i18n-interface/version)](https://packagist.org/packages/dhii/i18n-interface)
+## Dhii - Internationalization Abstract ##
+[![Build Status](https://travis-ci.org/Dhii/i18n-abstract.svg?branch=master)](https://travis-ci.org/Dhii/i18n-abstract)
+[![Code Climate](https://codeclimate.com/github/Dhii/i18n-abstract/badges/gpa.svg)](https://codeclimate.com/github/Dhii/i18n-abstract)
+[![Test Coverage](https://codeclimate.com/github/Dhii/i18n-abstract/badges/coverage.svg)](https://codeclimate.com/github/Dhii/i18n-abstract/coverage)
+[![Latest Stable Version](https://poser.pugx.org/dhii/i18n-abstract/version)](https://packagist.org/packages/dhii/i18n-abstract)
 
-Interfaces for internationalization.
+Common abstract functionality for internationalization.
