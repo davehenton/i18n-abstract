@@ -44,7 +44,7 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      * @since 0.1
      *
      * @param string|Stringable $string The string to interpolate parameters into.
-     * @param array $params The parameter map to interpolate into the string.
+     * @param array             $params The parameter map to interpolate into the string.
      * 
      * @throws I18nExceptionInterface If a problem not directly related to translating occurs.
      *
