@@ -61,7 +61,6 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      * @param int                 $code
      * @param \Exception          $previous
      * @param mixed               $subject    The subject which is being translated, if any.
-     * @param TranslatorInterface $translator The translator which is performing the translation, if any
      * @param Value|null          $context    The string context, if any.
      * @param array|null          $params     The interpolation params, if any.
      *
@@ -72,7 +71,6 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
             $code = 0,
             \Exception $previous = null,
             $subject = null,
-            TranslatorInterface $translator = null,
             $context = null,
             $params = null);
 }

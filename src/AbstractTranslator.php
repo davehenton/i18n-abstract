@@ -50,9 +50,8 @@ abstract class AbstractTranslator
      * @param int                 $code
      * @param \Exception          $previous
      * @param mixed               $subject    The subject which is being translated, if any.
-     * @param TranslatorInterface $translator The translator which is performing the translation, if any.
      *
      * @return TranslationExceptionInterface The new exception.
      */
-    abstract protected function _createTranslationException($message, $code = 0, \Exception $previous = null, $subject = null, TranslatorInterface $translator = null);
+    abstract protected function _createTranslationException($message, $code = 0, \Exception $previous = null, $subject = null);
 }
