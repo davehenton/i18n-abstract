@@ -4,6 +4,7 @@ namespace Dhii\I18n;
 
 use Dhii\I18n\Exception\I18nExceptionInterface;
 use Dhii\I18n\Exception\TranslationExceptionInterface;
+use Exception as RootException;
 
 /**
  * Common functionality for translators.
@@ -30,28 +31,28 @@ abstract class AbstractTranslator
      * Creates a new instance of an internationalization exception.
      *
      * @since 0.1
-     * @see \Exception::__construct()
+     * @see RootException::__construct()
      *
-     * @param string     $message
-     * @param int        $code
-     * @param \Exception $previous
+     * @param string        $message
+     * @param int           $code
+     * @param RootException $previous
      *
      * @return I18nExceptionInterface The new exception.
      */
-    abstract protected function _createI18nException($message, $code = 0, \Exception $previous = null);
+    abstract protected function _createI18nException($message, $code = 0, RootException $previous = null);
 
     /**
      * Creates a new instance of a translation exception.
      *
      * @since 0.1
-     * @see \Exception::__construct()
+     * @see RootException::__construct()
      *
-     * @param string              $message
-     * @param int                 $code
-     * @param \Exception          $previous
-     * @param mixed               $subject    The subject which is being translated, if any.
+     * @param string        $message
+     * @param int           $code
+     * @param RootException $previous
+     * @param mixed         $subject  The subject which is being translated, if any.
      *
      * @return TranslationExceptionInterface The new exception.
      */
-    abstract protected function _createTranslationException($message, $code = 0, \Exception $previous = null, $subject = null);
+    abstract protected function _createTranslationException($message, $code = 0, RootException $previous = null, $subject = null);
 }
