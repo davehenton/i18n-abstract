@@ -15,6 +15,17 @@ use Exception as RootException;
 abstract class AbstractTranslator
 {
     /**
+     * Parameter-less constructor.
+     *
+     * Invoke this in actual constructor.
+     *
+     * @since [*next-version*]
+     */
+    protected function _construct()
+    {
+    }
+
+    /**
      * Translates a subject.
      *
      * @since 0.1
