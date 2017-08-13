@@ -4,6 +4,7 @@ namespace Dhii\I18n;
 
 use Dhii\I18n\Exception\I18nExceptionInterface;
 use Dhii\I18n\Exception\TranslationExceptionInterface;
+use Dhii\Util\String\StringableInterface as Stringable;
 use Exception as RootException;
 
 /**
@@ -33,9 +34,9 @@ abstract class AbstractTranslator
      * @since 0.1
      * @see RootException::__construct()
      *
-     * @param string        $message
-     * @param int           $code
-     * @param RootException $previous
+     * @param string|Stringable $message
+     * @param int               $code
+     * @param RootException     $previous
      *
      * @return I18nExceptionInterface The new exception.
      */
@@ -47,10 +48,10 @@ abstract class AbstractTranslator
      * @since 0.1
      * @see RootException::__construct()
      *
-     * @param string        $message
-     * @param int           $code
-     * @param RootException $previous
-     * @param mixed         $subject  The subject which is being translated, if any.
+     * @param string|Stringable $message
+     * @param int               $code
+     * @param RootException     $previous
+     * @param mixed             $subject  The subject which is being translated, if any.
      *
      * @return TranslationExceptionInterface The new exception.
      */

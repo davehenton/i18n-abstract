@@ -58,12 +58,12 @@ abstract class AbstractFormatTranslator extends AbstractStringTranslator
      * @since 0.1
      * @see RootException::__construct()
      *
-     * @param string        $message
-     * @param int           $code
-     * @param RootException $previous
-     * @param mixed         $subject  The subject which is being translated, if any.
-     * @param Value|null    $context  The string context, if any.
-     * @param array|null    $params   The interpolation params, if any.
+     * @param string|Stringable $message
+     * @param int               $code
+     * @param RootException     $previous
+     * @param mixed             $subject  The subject which is being translated, if any.
+     * @param Value|null        $context  The string context, if any.
+     * @param array|null        $params   The interpolation params, if any.
      *
      * @return StringTranslationExceptionInterface The new exception.
      */
