@@ -19,7 +19,7 @@ abstract class AbstractTranslator
      *
      * Invoke this in actual constructor.
      *
-     * @since [*next-version*]
+     * @since 0.2
      */
     protected function _construct()
     {
