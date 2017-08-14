@@ -10,3 +10,5 @@ Common abstract functionality for internationalization.
 - Common functionality, especially for format translators.
 - Helps alternative implementations avoid trivial, repetitive code.
 - Offers a contract, making concretions more portable.
+
+[Dhii]:                     https://github.com/Dhii/dhii
