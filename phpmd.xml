@@ -23,3 +23,7 @@
         </properties>
     </rule>
 </ruleset>
+
+
+# below is a ruleset generated from http://ajmm.org/phpmd/#controversial. When commented out, this provides the desired behavior of the "allow underscore" specification
+
